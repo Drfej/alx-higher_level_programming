@@ -3,10 +3,9 @@
 LockedClass
 """
 
-
 class LockedClass:
     """ No class or object attributes, can't set
-        Except for first_name
+    Except for first_name
     """
     def __setattr__(self, attribute, value):
         if attribute == "first_name":
