@@ -10,6 +10,7 @@ def pascal_triangle(n):
     
     Args:
         - n: size of the triangle (rows)
+        
     Returns: a list of list of integers
     """
 
