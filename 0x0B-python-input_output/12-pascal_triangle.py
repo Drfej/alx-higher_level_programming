@@ -7,6 +7,7 @@ def pascal_triangle(n):
     """ends of each list in the matrix are summed to display the next list
     until the middle of the list. The number '1' is always at both ends.
     """
+ 
     if n <= 0:
         return []
 
